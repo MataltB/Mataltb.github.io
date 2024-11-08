@@ -165,3 +165,16 @@ footer .social-links li {
         padding: 15px;
     }
 }
+
+/* Carousel - reducir altura de las imágenes */
+.carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Tamaño de imagen en la sección de productos */
+.sales-section .card img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
